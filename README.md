@@ -11,6 +11,13 @@ require 'pry'
 <code>
 class Recipe
 
+### using a built in macro called allows us to read the attributes from our class without needing to def a method for it.
+
+<code>
+attr_reader :name
+</code>
+
+
 ### This is the initializer block that helps us create a new attribute in our class
 
 

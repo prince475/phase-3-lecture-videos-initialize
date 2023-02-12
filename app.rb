@@ -2,6 +2,8 @@ require 'pry'
 
 class Recipe
 
+  #Adding a macro attr_readder to read attributes declared in theprogram which subtitutes the need for having the def returning method.
+  #attr_reader :name
   # This is the initializer block that helps us create a new attribute in our class
   def initialize(name)
     # creating an instance variable using the @ sign
